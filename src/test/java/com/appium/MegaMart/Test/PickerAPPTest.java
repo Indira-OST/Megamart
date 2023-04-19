@@ -15,7 +15,10 @@ public class PickerAPPTest extends PickerAppPage {
 
 		ConfigureAppium("PickerAppV1.0.4.apk");
 		LoginPage();
-
+		ConfigureAppium("PickerAppV1.0.4.apk");
+		LoginPage();
+		ConfigureAppium("PickerAppV1.0.4.apk");
+		LoginPage();
 	}
 
 	@Test(priority = 2)
@@ -30,55 +33,5 @@ public class PickerAPPTest extends PickerAppPage {
 		
 		
 	}
-	@Test(priority = 2)
-	public static void DashboardListsdf() throws MalformedURLException, InterruptedException {
-		VerifyHeaderText();
-		verifyNewOrderListDashboard();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
-		
-		
-		
-	}
-	public static void DashboardListon() throws MalformedURLException, InterruptedException {
-		VerifyHeaderText();
-		verifyNewOrderListDashboard();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
-		VerifyHeaderText();
-		verifyNewOrderListDashboard();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
 
-		ConfigureAppium("PickerAppV1.0.4.apk");
-		LoginPage();
-		VerifyHeaderText();
-		verifyNewOrderListDashboard();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
-		VerifyHeaderText();
-		verifyNewOrderListDashboard();
-		verifyExploreAll();
-		verifyNewOrdersList();
-		verifyOnHoldList();
-		verifyCompletedList();
-
-		ConfigureAppium("PickerAppV1.0.4.apk");
-		LoginPage();
-
-		
-		
-	}
 }
