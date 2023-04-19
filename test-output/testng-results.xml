@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T13:11:13 IST" name="Default suite" finished-at="2023-04-18T13:12:58 IST" duration-ms="104809">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T13:11:13 IST" name="Default test" finished-at="2023-04-18T13:12:58 IST" duration-ms="104809">
+      <class name="com.appium.MegaMart.Test.PickerAPPTest">
+        <test-method signature="PickerAPPLogin()[pri:1, instance:com.appium.MegaMart.Test.PickerAPPTest@6253c26]" started-at="2023-04-18T13:11:13 IST" name="PickerAPPLogin" finished-at="2023-04-18T13:12:25 IST" duration-ms="72157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PickerAPPLogin -->
+        <test-method signature="DashboardList()[pri:2, instance:com.appium.MegaMart.Test.PickerAPPTest@6253c26]" started-at="2023-04-18T13:12:25 IST" name="DashboardList" finished-at="2023-04-18T13:12:58 IST" duration-ms="32554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardList -->
+      </class> <!-- com.appium.MegaMart.Test.PickerAPPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
