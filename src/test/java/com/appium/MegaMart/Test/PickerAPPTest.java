@@ -62,6 +62,21 @@ public class PickerAPPTest extends PickerAppPage {
 
 		ConfigureAppium("PickerAppV1.0.4.apk");
 		LoginPage();
+		VerifyHeaderText();
+		verifyNewOrderListDashboard();
+		verifyExploreAll();
+		verifyNewOrdersList();
+		verifyOnHoldList();
+		verifyCompletedList();
+		VerifyHeaderText();
+		verifyNewOrderListDashboard();
+		verifyExploreAll();
+		verifyNewOrdersList();
+		verifyOnHoldList();
+		verifyCompletedList();
+
+		ConfigureAppium("PickerAppV1.0.4.apk");
+		LoginPage();
 
 		
 		
