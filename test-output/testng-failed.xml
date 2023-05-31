@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.MegaMart.Test.PickerAPPTest">
+      <class name="com.appium.MegaMart.Test.MobileFrontAppTest">
         <methods>
-          <include name="DashboardList"/>
+          <include name="verifyProfList"/>
         </methods>
-      </class> <!-- com.appium.MegaMart.Test.PickerAPPTest -->
+      </class> <!-- com.appium.MegaMart.Test.MobileFrontAppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

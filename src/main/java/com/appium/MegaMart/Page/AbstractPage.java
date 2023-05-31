@@ -30,12 +30,12 @@ public class AbstractPage {
 	public static void ConfigureAppium(String APKfile) throws MalformedURLException {
 	
 		 UiAutomator2Options options = new UiAutomator2Options();
-			options.setDeviceName("deliveryApp");
+			options.setDeviceName("MobileStoreFront");
 		
 			options.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 			options.setApp("C:\\Users\\indira.k\\eclipse-workspace\\Appium_MegaMart\\src\\test\\java\\resources\\"+APKfile+"");
 			
-			//("C:\\Users\\indira.k\\eclipse-workspace\\Appium_MegaMart\\src\\test\\java\\resources\\PickerAppV1.0.4.apk");
+		//	("C:\\Users\\indira.k\\eclipse-workspace\\Appium_MegaMart\\src\\test\\java\\resources\\megamart.customer-1.0-debug.apk");
 			//("C:\\Users\\indira.k\\eclipse-workspace\\Appium_MegaMart\\src\\test\\java\\resources\\DeliveryApp_new.apk");
 			
 			driver= new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
